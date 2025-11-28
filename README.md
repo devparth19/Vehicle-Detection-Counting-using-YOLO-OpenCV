@@ -66,8 +66,8 @@ vehicle_detection_counting_yolo.py
 📦 Output
 
 <p float="left">
-  <img src="https://github.com/devparth19/<your_repo_name>/blob/main/Output/output_1.png" width="800" height="400" />
-  <img src="https://github.com/devparth19/<your_repo_name>/blob/main/Output/output_2.png" width="800" height="400" />
+  <img src="https://github.com/devparth19/<your_repo_name>/blob/main/Output/output_1.jpeg" width="800" height="400" />
+  <img src="https://github.com/devparth19/<your_repo_name>/blob/main/Output/output_2.jpeg" width="800" height="400" />
 </p>
 
 
