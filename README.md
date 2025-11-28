@@ -43,9 +43,7 @@ https://github.com/devparth19/Vehicle-Detection-Counting-using-YOLO-OpenCV/blob/
 | OpenCV | drawing & video processing |
 | NumPy | geometry & array handling |
 
-📦 Output
 
-- Program generates: output.mp4
 
 
 ## 🧩 Code Architecture
@@ -63,10 +61,14 @@ vehicle_detection_counting_yolo.py
 ├── Visualization overlays
 └── Output video writer (output.mp4)
 
+```
 
-## Output
+📦 Output
 
-![output 1](Output/output_1.png)
-![output 2](Output/output_2.png)
+<p float="left">
+  <img src="https://github.com/devparth19/<your_repo_name>/blob/main/Output/output_1.png" width="800" height="400" />
+  <img src="https://github.com/devparth19/<your_repo_name>/blob/main/Output/output_2.png" width="800" height="400" />
+</p>
+
 
 
