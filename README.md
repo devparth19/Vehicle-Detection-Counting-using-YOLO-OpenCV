@@ -14,11 +14,7 @@ This system performs:
 - On-screen visual overlays  
 - Output video recording (`output.mp4`)  
 
----
 
-## 🔥 Demo Output  
-🎥 Example output video:  
-https://github.com/devparth19/Vehicle-Detection-Counting-using-YOLO-OpenCV/blob/main/output.mp4
 
 ---
 
