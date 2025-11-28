@@ -48,14 +48,18 @@ https://github.com/devparth19/Vehicle-Detection-Counting-using-YOLO-OpenCV/blob/
 - Program generates: output.mp4
 
 
+## 🧩 Code Architecture
+
+```bash
 vehicle_detection_counting_yolo.py
 │
-├─ YOLO model loading
-├─ CentroidTracker class
-├─ Video capture
-├─ YOLO inference per frame
-├─ Bounding box + classification
-├─ Centroid tracking per object
-├─ Crossing-line based counting
-├─ Visualization overlays
-└─ Output video writer (output.mp4)
+├── YOLO model loading
+├── CentroidTracker class
+├── Video capture
+├── YOLO inference per frame
+├── Bounding box + classification
+├── Centroid tracking per object
+├── Crossing-line based counting
+├── Visualization overlays
+└── Output video writer (output.mp4)
+
