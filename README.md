@@ -1,61 +1,61 @@
-# Vehicle Detection & Counting using YOLO + OpenCV
+**# 🚗 Vehicle Detection & Counting using YOLO + OpenCV
 
-This project performs real-time vehicle detection, classification, and counting using YOLO object detection and OpenCV. Vehicles are tracked as they cross a virtual detection boundary, and results are displayed and saved into an output video.
+A real-time computer vision system for detecting, classifying, tracking, and counting vehicles in video streams using YOLO object detection and OpenCV. This project is intended for traffic monitoring, smart city analytics, and intelligent transportation systems.
 
 ---
 
-## 🔗 GitHub Repository
+## 📌 Overview
 
-🔗 Project Link: https://github.com/devparth19/Vehicle-Detection-Counting-using-YOLO-OpenCV  
-🎥 Output Video (output.mp4):  
+This system performs:
+- Real-time vehicle detection  
+- Vehicle classification (car, bus, truck, motorbike)  
+- Persistent object ID tracking  
+- Line-based directional vehicle counting  
+- On-screen visual overlays  
+- Output video recording (`output.mp4`)  
+
+---
+
+## 🔥 Demo Output  
+🎥 Example output video:  
 https://github.com/devparth19/Vehicle-Detection-Counting-using-YOLO-OpenCV/blob/main/output.mp4
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- Real-time vehicle detection  
-- Classification of:
-  - car  
-  - bus  
-  - motorbike  
-  - truck  
-- Object tracking using a centroid-based tracker  
-- Vehicle counting based on crossing a detection line  
-- Saves processed annotated video as `output.mp4`  
-- Works with:
-  - uploaded video file
-  - live webcam input  
+- YOLO-based detection (Ultralytics YOLOv8n)
+- GPU or CPU execution
+- Real-time optimized
+- Centroid-based vehicle tracking
+- Counting logic using boundary crossing
+- Input flexibility (video file or webcam)
+- Results saved as annotated output video
 
 ---
 
-## 🧠 Model Used
+## 🧠 Technologies Used
 
-- **YOLOv8n (Ultralytics)**  
-- Pretrained on COCO dataset (80 classes)  
-- Lightweight + fast for real-time  
-
----
-
-## 🛠️ Installation
-
-Make sure Python 3.8+ is installed.
-
-Install dependencies:
-python vehicle_detection_counting_yolo.py
+| Component | Purpose |
+|----------|----------|
+| Python | main implementation |
+| YOLOv8n | vehicle object detection |
+| OpenCV | drawing & video processing |
+| NumPy | geometry & array handling |
 
 📦 Output
 
-While running, the program:
-
-✔ draws bounding boxes
-✔ labels each vehicle type
-✔ assigns a unique ID to each vehicle
-✔ counts number of vehicles crossing the line
-
-And generates:
-output.mp4
+- Program generates: output.mp4
 
 
-```bash
-pip install ultralytics opencv-python numpy
+vehicle_detection_counting_yolo.py
+│
+├─ YOLO model loading
+├─ CentroidTracker class
+├─ Video capture
+├─ YOLO inference per frame
+├─ Bounding box + classification
+├─ Centroid tracking per object
+├─ Crossing-line based counting
+├─ Visualization overlays
+└─ Output video writer (output.mp4)
